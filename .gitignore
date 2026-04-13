@@ -1,0 +1,71 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environnements virtuels
+.venv/
+venv/
+ENV/
+env/
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================
+# Données sensibles / lourdes
+# ========================
+# Les données brutes ne sont PAS versionnées si elles contiennent des infos sensibles
+# Décommenter la ligne suivante si nécessaire :
+# data/raw/
+
+# Les exports sont régénérables via les scripts
+data/exports/
+
+# Données intermédiaires
+data/processed/
+
+# ========================
+# Éditeurs & OS
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# Logs & temp
+# ========================
+*.log
+*.tmp
+*.cache
+.cache/
+
+# ========================
+# Variables d'environnement
+# ========================
+.env
+.env.local
+*.env
+
+# ========================
+# Coverage & tests
+# ========================
+.coverage
+htmlcov/
+.pytest_cache/
