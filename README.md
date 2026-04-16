@@ -128,7 +128,7 @@ Voir `dashboard/looker_schema.md` pour la configuration détaillée.
 
 ## 📁 Données brutes
 
-Fait par **Fouad MOUTAIROU**
+Réalisé par **Fouad MOUTAIROU**
 Portfolio : https://portfolio-fouad.netlify.app/ 
 
 Le fichier `data/raw/coffee_sales.csv` contient les données originales et **ne doit jamais être modifié**. Toute transformation se fait dans les scripts `src/`.
